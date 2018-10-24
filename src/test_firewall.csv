@@ -1,0 +1,12 @@
+inbound,tcp,80,192.168.1.2,TRUE
+outbound,tcp,10005,192.168.10.11,TRUE
+inbound,udp,53,192.168.2.2,TRUE
+outbound,udp,1050,52.12.48.92,TRUE
+inbound,udp,53,192.168.2.2,TRUE
+outbound,udp,2000,52.12.48.92,TRUE
+outbound,udp,2001,52.12.48.92,FALSE
+inbound,udp,24,52.12.48.92,FALSE
+inbound,tcp,81,192.168.1.2,FALSE
+outbound,tcp,10234,192.168.10.11,TRUE
+outbound,tcp,10000,192.168.10.11,TRUE
+outbound,tcp,20000,192.168.10.11,TRUE
