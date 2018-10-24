@@ -2,9 +2,9 @@
 
 ## Approach:
 
-* I have created 4 separate objects for 'inbound-tcp', 'inbound-udp', 'outbound-tcp' and 'outbound-udp'. Each objects have their separate port-ip mapping maintained using HashMap.
+* I have created 4 separate objects for 'inbound-tcp', 'inbound-udp', 'outbound-tcp' and 'outbound-udp'. Each object has their separate port-ip mapping maintained using HashMap.
 
-* As I know, the max number of ports in case of tcp and udp is 65K. This is not a very large number to store. Hence I am storing all the ports along with ip_addresses associated to it.
+* As I know, the max number of ports in case of tcp and udp is 65K. This is not a very large number to store. Hence I am storing all the incoming ports along with ip_addresses associated to it.
 
 * As I directly have access to ports associated to 4 defined objects, all that searching process happens in O(1), but the main task is searching ip_address.
 
