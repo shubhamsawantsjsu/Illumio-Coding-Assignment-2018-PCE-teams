@@ -77,7 +77,7 @@ public class FirewallService extends Firewall {
 		}
 	}
 	
-	public long ipToLong(InetAddress ip) {
+	private long ipToLong(InetAddress ip) {
 		byte[] octets = ip.getAddress();
 		long result = 0;
 		
